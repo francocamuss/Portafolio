@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
+.nav-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 100px;
+}
+
+.cuadrado{
+    height: 15px;
+    width: 15px;
+    background-color: #150050;
+    margin-right: -10px;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.div-navLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
+.h4-about{
+    color: #3F0071;
+    cursor: pointer;
+}
+.h4-about:hover{
+    color: #FB2576;
+}

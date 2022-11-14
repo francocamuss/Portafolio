@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
+.resume-div{
+    margin-top: 100px;
+    background: linear-gradient(to left, white 60%, #150050 40%);
+    font-family: "Poppins";
+}
+.resume-curriculum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cuadrado-resume{
+    height: 20px;
+    width: 20px;
+    background-color: #3F0071;
+    margin-right: 5px;
+}   
+.experiencia-div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.div-card-resume{
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    height: 250px;
+    margin-top: 15px;
+}
+.div1-resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.div2-resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.text-resume{
+    color: #FB2576;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+}
+
+.button-proyecto{
+    margin-left: 5px;
+        margin-right: 5px;
+        display: inline-block;
+        outline: 0;
+        border: 2px solid black;
+        cursor: pointer;
+        border-radius: 15px;
+        background-color: #FB2576;
+        color: white;
+        font-weight: 400;
+        transition: background 0.2s ease,
+        color 0.2s ease,
+        box-shadow 0.2s ease;
+        padding: 8px;
+}
+.button-proyecto:hover {
+    color: #000000;
+    background: white;
+    border: 2px solid #FB2576;
+    font-weight: bold;
+}
+
+.a-button{
+    width: 50%;
+    margin-left: 25%;
+}
