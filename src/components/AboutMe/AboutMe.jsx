@@ -8,7 +8,7 @@ const AboutMe = function(){
         <div className="aboutMe-div">
             <div className="aboutMe-card">
                 <div className="left-div">
-                    <img src={photo} className="photo"/>
+                    <img src={photo} className="photo" alt="photo"/>
                     <h2 className="color-about">Franco Camus</h2>
                     <hr color="#3F0071"/>
                     <h3 className="color-about">FULL STACK WEB DEVELOPER</h3>

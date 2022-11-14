@@ -56,15 +56,58 @@ const Resume = function(){
                     <a target="_blank" className="a-button"><button className="button-proyecto">VER PROYECTO</button></a>
                 </div>
             </div>
+            <br></br>
             <div className="experiencia-div">
                 <h3>Educacion</h3>
                 <p>universitaria</p>
             </div>
-            <div className="div-card-resume div1-resume">
-                <h3 className="text-resume">UNIVERISTARIA</h3>
-                <p>Ingenieria Biomedica</p>
-                <p>2018 - 2022</p>
-                <p>Hasta tecer año</p>
+            <div className="div-card-resume">
+                <div className="div1-resume">
+                    <h3 className="text-resume">UNIVERISTARIA</h3>
+                    <p>Ingenieria Biomedica</p>
+                    <p>2018 - 2022</p>
+                    <p>Tecer año (en proceso)</p>
+                </div>
+                <div className="div2-resume">
+                    <p>
+                       Estudiante de la carrera Ingenieria Biomedica en la Facultad de Ciencias Exactas y Tecnologia de la UNT. Con conocimientos avanzados en matematicas, fisca, calculo y algebra.
+                    </p>
+                </div>
+            </div>
+            <br></br>
+            
+            <div className="div-habilidades">
+                <h3 className="text-resume">HABILIDADES PROFESIONALES BLANDAS</h3>
+                <div className="habilidad-row"> 
+                <div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Trabajo en equipo y colaborativo</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Resolucion de problemas</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Creatividad</p>
+                    </div>
+                </div>
+                <div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Proactivo</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Empatia y sociable</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Perseverancia y dedicacion</p>
+                    </div>
+                </div>
+                </div>
             </div>
             <br></br>
         </div>

@@ -36,8 +36,9 @@
 .div1-resume{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     width: 50%;
+    font-weight: bold;
 }
 
 .div2-resume{
@@ -79,4 +80,34 @@
 .a-button{
     width: 50%;
     margin-left: 25%;
+}
+
+.cubito{
+    height: 15px;
+    width: 15px;
+    background-color: #3F0071;
+    margin-right: 5px;
+}
+
+.div-habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    height: 250px;
+    margin-top: 15px;
+}
+
+.habilidad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.habilidad-row{
+    display: flex;
+    justify-content: space-around;
 }
