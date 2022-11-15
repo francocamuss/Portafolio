@@ -32,7 +32,7 @@ const Resume = function(){
                 <div className="div1-resume">
                     <h3 className="text-resume">HENRY COUNTRIES</h3>
                     <p>Programador "FULL STACK"</p>
-                    <p>oct. 2022 - nov. 2022</p>
+                    <p>sep. 2022 - oct. 2022</p>
                     <p>Proyecto individual</p>
                 </div>
                 <div className="div2-resume">
@@ -51,7 +51,7 @@ const Resume = function(){
                 </div>
                 <div className="div2-resume">
                     <p>
-                        Programador Fullstack para Proyecto grupal Henry Bienes Raices, el cual consistió en crear un E-COMMERCE, desarrollando distintas funcionalidades.
+                         Programador Fullstack para Proyecto Henry Dogs, el cual consistió en crear una SPA, consultando una API y desarrollando distintas funcionalidades.
                     </p>
                     <a target="_blank" className="a-button"><button className="button-proyecto">VER PROYECTO</button></a>
                 </div>
@@ -66,7 +66,7 @@ const Resume = function(){
                     <h3 className="text-resume">UNIVERISTARIA</h3>
                     <p>Ingenieria Biomedica</p>
                     <p>2018 - 2022</p>
-                    <p>Tecer año (en proceso)</p>
+                    <p>Tercer año (en proceso)</p>
                 </div>
                 <div className="div2-resume">
                     <p>

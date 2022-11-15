@@ -6,9 +6,9 @@ import linkLogo from "../../images/linkedinLogo.png";
 const Contact = function(){
     return(
         <div className="contact-div">
-            <h2>CONTACTO</h2>
+            <h2 className="text-contact">CONTACTO</h2>
             <div className="contact-row">
-            <div>
+            <div className="text-contact">
                 <h3>Email:</h3>
                 <h3>francocamuspp@gmail.com</h3>
             </div>
@@ -22,7 +22,7 @@ const Contact = function(){
                     <img height="80" width="auto" src={gitLogo} alt="gitLogo" />
                 </a>
             </div>
-            <div>
+            <div className="text-contact">
                 <h3>Celular:</h3>
                 <h3>+54 9 381 524-3787</h3>
             </div>
