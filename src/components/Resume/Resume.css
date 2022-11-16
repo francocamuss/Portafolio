@@ -1,8 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
 .resume-div{
-    margin-top: 100px;
-    background: linear-gradient(to left, white 60%, #150050 40%);
+    background: #352658;
     font-family: "Poppins";
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+}
+.resume-subdiv-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-habilitie{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 28%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
 }
 .resume-curriculum{
     display: flex;
@@ -83,27 +102,30 @@
 }
 
 .cubito{
-    height: 15px;
-    width: 15px;
-    background-color: #3F0071;
+    height: 10px;
+    width: 10px;
+    background-color: #FB2576;
     margin-right: 5px;
+    border: 1px solid black;
 }
 
 .div-habilidades{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 50%;
     margin-left: 25%;
     background-color: white;
     height: 250px;
     margin-top: 15px;
+    
 }
 
 .habilidad{
     display: flex;
     flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
     align-items: center;
 }
 

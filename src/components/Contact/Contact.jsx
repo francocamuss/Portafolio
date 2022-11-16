@@ -5,7 +5,7 @@ import linkLogo from "../../images/linkedinLogo.png";
 
 const Contact = function(){
     return(
-        <div className="contact-div">
+        <div className="contact-div" id="Contact">
             <h2 className="text-contact">CONTACTO</h2>
             <div className="contact-row">
             <div className="text-contact">

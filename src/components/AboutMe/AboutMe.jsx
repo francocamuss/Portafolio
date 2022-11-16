@@ -2,11 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./AboutMe.css";
 import photo from "../../fotoPerfil.jpeg";
+import CV from "../../images/CV-Franco.pdf";
 
 const AboutMe = function(){
     return(
-        <div className="aboutMe-div">
-            <div className="aboutMe-card">
+        <div className="aboutMe-div" id="AboutMe">
+            <div className="aboutMe-subDiv-1">
+                <h1>Hola! Mi nombre es Franco Camus</h1>
+                <h2>Full stack web developer</h2>
+                <p>Me considero una persona proactiva, disciplinada, apasionada por todo lo que hace. Me adapto a las circunstancias, me gusta el trabajo en equipo y el liderazgo.</p>
+                <a download='' href={CV} className="a-download">
+                    <button className="button1">DESCARGAR CV</button>
+                </a>
+            </div>
+            <div className="aboutMe-subDiv-2">
+                <img src={photo} className="photo" alt="photo"/>
+            </div>
+            {/* <div className="aboutMe-card">
                 <div className="left-div">
                     <img src={photo} className="photo" alt="photo"/>
                     <h2 className="color-about">Franco Camus</h2>
@@ -35,7 +47,7 @@ const AboutMe = function(){
                         Me considero una persona proactiva, disciplinada, apasionada por todo lo que hace. Me adapto a las circunstancias, me gusta el trabajo en equipo y el liderazgo.
                     </p>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

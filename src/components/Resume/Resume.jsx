@@ -1,16 +1,103 @@
 import React from "react";
 import "./Resume.css";
+import CV from "../../images/CV-Franco.pdf";
 
 const Resume = function(){
     return(
-        <div className="resume-div">
-            <div className="resume-curriculum">
+        <div className="resume-div" id="Resume">
+            <div className="resume-subdiv-1">
+                <h2>HABILIDADES</h2>
+            </div>
+            <div className="resume-subdiv-2">
+                <div className="card-habilitie">
+                    <h3>Frontend Developer</h3>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Javascript</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>React JS</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Redux</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>HTML</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>CSS</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Proactividad</p>
+                    </div>
+                </div>
+                <div className="card-habilitie">
+                    <h3>Backend Developer</h3>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>SQL (Postgres)</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Sequelize</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Express JS</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Node JS</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Proactividad</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Proactividad</p>
+                    </div>
+                </div>
+                <div className="card-habilitie">
+                    <h3>Habilidades blandas</h3>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Trabajo en equipo y colaborativo</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Resolución de problemas</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Creatividad</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Proactividad</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Empatia y sociabilidad</p>
+                    </div>
+                    <div className="habilidad">
+                        <div className="cubito"></div>
+                        <p>Perseverancia y dedicacion</p>
+                    </div>
+                </div>
+            </div>
+            {/* <div className="resume-curriculum">
                 <div className="cuadrado-resume"></div>
                 <h2>Curriculum</h2>
             </div>
             <div className="experiencia-div">
                 <h3>Experiencia</h3>
-                <a download={""}>
+                <a download='' href={CV}>
                     <button className="button1">DESCARGAR CV</button>
                 </a>
             </div>
@@ -58,13 +145,13 @@ const Resume = function(){
             </div>
             <br></br>
             <div className="experiencia-div">
-                <h3>Educacion</h3>
+                <h3>Educación</h3>
                 <p>universitaria</p>
             </div>
             <div className="div-card-resume">
                 <div className="div1-resume">
                     <h3 className="text-resume">UNIVERISTARIA</h3>
-                    <p>Ingenieria Biomedica</p>
+                    <p>Ingeniería Biomédica</p>
                     <p>2018 - 2022</p>
                     <p>Tercer año (en proceso)</p>
                 </div>
@@ -96,11 +183,11 @@ const Resume = function(){
                 <div>
                     <div className="habilidad">
                         <div className="cubito"></div>
-                        <p>Proactivo</p>
+                        <p>Proactividad</p>
                     </div>
                     <div className="habilidad">
                         <div className="cubito"></div>
-                        <p>Empatia y sociable</p>
+                        <p>Empatia y sociabilidad</p>
                     </div>
                     <div className="habilidad">
                         <div className="cubito"></div>
@@ -109,7 +196,7 @@ const Resume = function(){
                 </div>
                 </div>
             </div>
-            <br></br>
+            <br></br> */}
         </div>
     )
 }

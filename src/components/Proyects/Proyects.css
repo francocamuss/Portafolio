@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
 .proyects-div{
+    display: flex;
+    flex-direction: column ;
     height: 500px;
-    margin-top: 100px;
-    background-color: #150050;
+    background-color: #352658;
 }
 .text-proyects{
     font-weight: bold;

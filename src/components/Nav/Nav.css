@@ -5,18 +5,19 @@
     justify-content: space-between;
     align-items: center;
     font-family: "Poppins";
-    background-color: white;
+    background-color: rgba(0, 0, 0, .5);;
     position: fixed;
     top: 0px;
     width: 100%;
     border-bottom: 1px solid black;
-    height: 100px;
+    color: white;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
 }
 
 .cuadrado{
     height: 15px;
     width: 15px;
-    background-color: #150050;
+    background-color: #FB2576;
     margin-right: -10px;
 }
 
@@ -35,7 +36,7 @@
     width: 40%;
 }
 .h4-about{
-    color: #3F0071;
+    color: white;
     cursor: pointer;
 }
 .h4-about:hover{
