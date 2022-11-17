@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skills.css";
+    
 
 const Resume = function(){
     return(
@@ -32,7 +33,7 @@ const Resume = function(){
                     </div>
                     <div className="habilidad">
                         <div className="cubito"></div>
-                        <p>Proactividad</p>
+                        <p>Deploy en Vercel</p>
                     </div>
                 </div>
                 <div className="card-habilitie">
@@ -55,11 +56,11 @@ const Resume = function(){
                     </div>
                     <div className="habilidad">
                         <div className="cubito"></div>
-                        <p>Proactividad</p>
+                        <p>NPM</p>
                     </div>
                     <div className="habilidad">
                         <div className="cubito"></div>
-                        <p>Proactividad</p>
+                        <p>Deploy en Railway</p>
                     </div>
                 </div>
                 <div className="card-habilitie">
