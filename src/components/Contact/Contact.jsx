@@ -22,14 +22,14 @@ const Contact = function(){
                         <img height="120" width="auto" src={linkLogo} alt="linkedin Logo" />
                     </a>
                 </div>
-                <div className="text-contact div-GITHUB">
-                    <h3 className="h3gitHub">Visitar GitHub</h3>
-                    <a target="_blank" href="https://github.com/francocamuss">
+                <div className="text-contact">
+                    <h3>Visitar GitHub</h3>
+                    <a className="div-GITHUB" target="_blank" href="https://github.com/francocamuss">
                         <img height="140" width="auto" src={gitLogo} alt="gitLogo" />
                     </a>
                 </div>
-                <div className="text-contact div-GITHUB">
-                    <h3 className="h3gitHub">Enviar un whatsapp</h3>
+                <div className="text-contact">
+                    <h3>Enviar un whatsapp</h3>
                     <a target="_blank" href="https://wa.me/5493815243787?Hola,%20quiero%20saber%20más%20sobre%20tus%20servicios">
                         <img height="auto" width="120" src={wp} alt="whatsapp"/>
                     </a>
