@@ -2,11 +2,32 @@
 .proyects-div{
     display: flex;
     flex-direction: column ;
-    height: 500px;
     background-color: #352658;
 }
 .text-proyects{
     font-weight: bold;
     font-family: "Poppins";
     color: white;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+}
+.div-proyect{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+}
+
+.proyect-img{
+    width: 60%;
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+.div-proyect-name{
+    width: 40%;
 }

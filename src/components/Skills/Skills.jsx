@@ -1,5 +1,5 @@
 import React from "react";
-import "./Resume.css";
+import "./Skills.css";
 import CV from "../../images/CV-Franco.pdf";
 
 const Resume = function(){

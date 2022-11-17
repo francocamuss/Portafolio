@@ -2,15 +2,17 @@ import React from "react";
 import "./Contact.css";
 import gitLogo from "../../images/GitHub-Logo.png";
 import linkLogo from "../../images/linkedinLogo.png";
+import email from "../../images/IconoEmail.png";
 
 const Contact = function(){
     return(
         <div className="contact-div" id="Contact">
             <h2 className="text-contact">CONTACTO</h2>
             <div className="contact-row">
-            <div className="text-contact">
-                <h3>Email:</h3>
-                <h3>francocamuspp@gmail.com</h3>
+                <div className="text-contact"> 
+                    <a href="mailto:francocamuspp@gmail.com">
+                    <img height="50" width="50" src={email} alt="Gmail"/>
+                </a>
             </div>
             <div>
                 <a target="_blank" href="https://www.linkedin.com/in/franco-santiago-camus-1121261a8/">
