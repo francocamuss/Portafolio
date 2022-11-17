@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./AboutMe.css";
 import photo from "../../fotoPerfil.jpeg";
-import CV from "../../images/CV-Franco.pdf";
+import CV from "../../images/CV-Franco-Canva.pdf";
 
 const AboutMe = function(){
     return(
