@@ -13,14 +13,15 @@ const Proyects = function(){
                 <div className="div-proyect-name">
                     <h3>Henry Countries</h3>
                     <a target="_blank" href="https://pi-countries-pink-rho.vercel.app/">
-                        <button>Ver proyecto</button>
+                        <button className="btn-proyect">Ver proyecto</button>
                     </a>
+                    <br/>
                     <div>
                         <p>
-                            En este proyecto tuve la tarea de ser Full Stack...
+                            Este proyecto fue realizado de manera individual. Se desarrollo desde cero, tanto en el front end, back end y base de datos...
                         </p>
-                        <button>
-                            Ver mas informacion
+                        <button className="btn-vermas">
+                            Ver más
                         </button>
                     </div>
                 </div>
@@ -30,14 +31,15 @@ const Proyects = function(){
                 <div className="div-proyect-name">
                     <h3>Henry Bienes Raices</h3>
                     <a target="_blank" href="https://henrybienesraices.vercel.app/">
-                        <button>Ver proyecto</button>
+                        <button className="btn-proyect">Ver proyecto</button>
                     </a>
+                    <br/>
                     <div>
                         <p>
-                            En este proyecto tuve la tarea de ser Full Stack...
+                            Este proyecto fue realizado de manera grupal. Se desarrollo desde cero, tanto en el front end, back end y base de datos...
                         </p>
-                        <button>
-                            Ver mas informacion
+                        <button className="btn-vermas">
+                            Ver más
                         </button>
                     </div>
                 </div>
@@ -47,14 +49,15 @@ const Proyects = function(){
                 <div className="div-proyect-name">
                     <h3>Mi portafolio</h3>
                     <a target="_blank" href="https://portafolio-one-orpin.vercel.app/">
-                        <button>Ver proyecto</button>
+                        <button className="btn-proyect">Ver proyecto</button>
                     </a>
+                    <br/>
                     <div>
                         <p>
-                            En este proyecto tuve la tarea de ser Full Stack...
+                           El portafolio fue realizado de manera individual. Se desarrollo desde cero y solo necesito front end...
                         </p>
-                        <button>
-                            Ver mas informacion
+                        <button className="btn-vermas">
+                            Ver más
                         </button>
                     </div>
                 </div>

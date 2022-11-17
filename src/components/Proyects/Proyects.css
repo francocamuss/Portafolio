@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     background-color: #352658;
     height: 1500px;
+    font-family: "Poppins";
 }
 .text-proyects{
     margin-top: 35px;
@@ -30,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 60%;
+    height: 80%;
 }
 .proyect-img{
     width: 60%;
@@ -39,4 +40,55 @@
 }
 .div-proyect-name{
     width: 40%;
+}
+
+.btn-proyect{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #20182B;
+    line-height: 1.15;
+    font-size: 16px;
+}
+.btn-proyect:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #707AE6;
+}
+
+.btn-vermas{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 1px solid #1d1c1d4d;
+    font-weight: 700;
+    background: #fff;
+    padding: 0 8px 1px;
+    font-size: 13px;
+    border-radius: 4px;
+    color: rgb(29, 28, 29);
+    height: 28px;
+    min-width: 56px;
+    transition: all 80ms linear;
+}
+.btn-vermas:hover {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+    background: rgba(248, 248, 248, 1);
+}
+
+.div-proyect-name h3{
+    color: white;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.div-proyect-name p {
+    color: white;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+    font-weight: bold;
 }
