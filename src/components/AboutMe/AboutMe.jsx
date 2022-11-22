@@ -8,9 +8,9 @@ const AboutMe = function(){
     return(
         <div className="aboutMe-div" id="AboutMe">
             <div className="aboutMe-subDiv-1">
-                <h1>Hola! Mi nombre es Franco Camus</h1>
-                <h2>Full stack web developer</h2>
-                <p>Me considero una persona proactiva, disciplinada, apasionada por todo lo que hace. Me adapto a las circunstancias, me gusta el trabajo en equipo y el liderazgo.</p>
+                <h1>Hola! Mi nombre es Franco Camus.</h1>
+                <h2>Soy Full stack web developer</h2>
+                <p>En este sitio encontraras informacion sobre mi, mis habilidades y los proyectos que tengo como experiencia. Me considero una persona proactiva, disciplinada, apasionada por todo lo que hace. Me adapto a las circunstancias, me gusta el trabajo en equipo y el liderazgo.</p>
                 <a download='' href={CV} className="a-download">
                     <button className="button1">DESCARGAR CV</button>
                 </a>
