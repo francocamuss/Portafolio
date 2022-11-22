@@ -19,7 +19,7 @@ const Proyects = function () {
                 <img src={CountriesHome} alt="countries home" className="proyect-img"/>
                 <div className="div-proyect-name">
                     <h3>Henry Countries</h3>
-                    <a target="_blank" href="https://pi-countries-pink-rho.vercel.app/">
+                    <a target="_blank" href="https://pi-countries-francocamuss.vercel.app/">
                         <button className="btn-proyect">Ver proyecto</button>
                     </a>
                     <br/>
@@ -68,7 +68,7 @@ const Proyects = function () {
                 </p>
             </Modal>
             <div className="div-proyect">
-                <img src={PortafolioHome} alt="countries home" className="proyect-img"/>
+                <img src={PortafolioHome} alt="countries home" className="proyect-img" onClick={() => console.log("prueba")}/>
                 <div className="div-proyect-name">
                     <h3>Mi portafolio</h3>
                     <a target="_blank" href="https://portafolio-one-orpin.vercel.app/">

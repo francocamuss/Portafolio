@@ -35,11 +35,11 @@
     top: 5px;
     right: 5px;
     border: none;
-    font-size: 20px;
+    font-size: 30px;
     background: none;
 }
 .modal-close:hover{
-    font-size: 25px;
+    font-size: 35px;
     top: 2px;
     right: 2px;
 }
