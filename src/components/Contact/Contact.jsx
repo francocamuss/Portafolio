@@ -1,37 +1,51 @@
 import React from "react"; 
 import "./Contact.css";
-import gitLogo from "../../images/logoGitHubBlanco.png";
-import linkLogo from "../../images/linkBlanco.png";
-import email from "../../images/logoEmail.png";
-import wp from "../../images/logoWP.png";
+import { FaGithub, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const Contact = function(){
     return(
         <div className="contact-div" id="Contact">
-            <h2 className="text-contact">CONTACTO</h2>
+            <h2 className="text-contact text-size">CONTACTO</h2>
+            <form>
+                <h3 className="text-style">Contame tu propuesta</h3>
+                <div className="input-group">
+                    <input type="text"/>
+                    <label>nombre</label>
+                </div>
+                <div className="input-group">
+                    <input type="text"/>
+                    <label>email</label>
+                </div>
+                <div className="input-group">
+                    <textarea type="text"/>
+                    <label>tu propuesta</label>
+                </div>
+                <button>enviar</button>
+            </form>
             <div className="contact-row">
                 <div className="text-contact">
                     <h3>Enviar un email</h3>
                     <a target="_blank" href="mailto:francocamuspp@gmail.com">
-                        <img height="auto" width="120" src={email} alt="Gmail"/>
+                        <SiGmail color="white" size="30px"/>
                     </a>
                 </div>
                 <div className="text-contact">
                     <h3>Visitar Linkedin</h3>
                     <a target="_blank" href="https://www.linkedin.com/in/franco-santiago-camus-1121261a8/">
-                        <img height="120" width="auto" src={linkLogo} alt="linkedin Logo" />
+                        <FaLinkedinIn color="white" size="30px"/>
                     </a>
                 </div>
                 <div className="text-contact">
                     <h3>Visitar GitHub</h3>
                     <a className="div-GITHUB" target="_blank" href="https://github.com/francocamuss">
-                        <img height="140" width="auto" src={gitLogo} alt="gitLogo" />
+                        <FaGithub color="white" size="30px"/>
                     </a>
                 </div>
                 <div className="text-contact">
                     <h3>Enviar un whatsapp</h3>
                     <a target="_blank" href="https://wa.me/5493815243787?Hola,%20quiero%20saber%20más%20sobre%20tus%20servicios">
-                        <img height="auto" width="120" src={wp} alt="whatsapp"/>
+                        <FaWhatsapp color="white" size="30px"/>
                     </a>
                 </div>
             </div>
