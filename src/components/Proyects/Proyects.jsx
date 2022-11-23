@@ -19,7 +19,7 @@ const Proyects = function () {
                 <img src={CountriesHome} alt="countries home" className="proyect-img"/>
                 <div className="div-proyect-name">
                     <h3>Henry Countries</h3>
-                    <a target="_blank" href="https://pi-countries-francocamuss.vercel.app/">
+                    <a rel="noreferrer" target="_blank" href="https://pi-countries-francocamuss.vercel.app/">
                         <button className="btn-proyect">Ver proyecto</button>
                     </a>
                     <br/>
@@ -45,7 +45,7 @@ const Proyects = function () {
                 <img src={PGHome} alt="countries home" className="proyect-img"/>
                 <div className="div-proyect-name">
                     <h3>Henry Bienes Raices</h3>
-                    <a target="_blank" href="https://henrybienesraices.vercel.app/">
+                    <a rel="noreferrer" target="_blank" href="https://henrybienesraices.vercel.app/">
                         <button className="btn-proyect">Ver proyecto</button>
                     </a>
                     <br/>
@@ -71,7 +71,7 @@ const Proyects = function () {
                 <img src={PortafolioHome} alt="countries home" className="proyect-img" onClick={() => console.log("prueba")}/>
                 <div className="div-proyect-name">
                     <h3>Mi portafolio</h3>
-                    <a target="_blank" href="https://portafolio-one-orpin.vercel.app/">
+                    <a rel="noreferrer" target="_blank" href="https://portafolio-one-orpin.vercel.app/">
                         <button className="btn-proyect">Ver proyecto</button>
                     </a>
                     <br/>

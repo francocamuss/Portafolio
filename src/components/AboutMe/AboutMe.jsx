@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./AboutMe.css";
 import photo from "../../fotoPerfil.jpeg";
 import CV from "../../images/CV-Franco-Canva.pdf";
@@ -16,7 +15,7 @@ const AboutMe = function(){
                 </a>
             </div>
             <div className="aboutMe-subDiv-2">
-                <img src={photo} className="photo" alt="photo"/>
+                <img src={photo} className="photo" alt="perfil"/>
             </div>
             {/* <div className="aboutMe-card">
                 <div className="left-div">

@@ -1,5 +1,4 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
 import Nav from "./components/Nav/Nav.jsx";
 import AboutMe from "./components/AboutMe/AboutMe.jsx";
 import Skills from "./components/Skills/Skills.jsx";
