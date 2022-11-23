@@ -12,81 +12,81 @@ const Resume = function(){
                 <div className="card-habilitie">
                     <h3>Frontend Developer</h3>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Javascript</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>React JS</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Redux</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>HTML</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>CSS</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Deploy en Vercel</p>
                     </div>
                 </div>
                 <div className="card-habilitie">
                     <h3>Backend Developer</h3>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>SQL (Postgres)</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Sequelize</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Express JS</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Node JS</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>NPM</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Deploy en Railway</p>
                     </div>
                 </div>
                 <div className="card-habilitie">
                     <h3>Habilidades blandas</h3>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Trabajo en equipo y colaborativo</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Resolución de problemas</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Creatividad</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Proactividad</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Empatia y sociabilidad</p>
                     </div>
                     <div className="habilidad">
-                        <BiCheck color="black" size="30px"/>
+                        <BiCheck color="#FB2576" size="30px"/>
                         <p>Perseverancia y dedicacion</p>
                     </div>
                 </div>
