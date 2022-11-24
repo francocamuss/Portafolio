@@ -2,27 +2,77 @@ import React from "react";
 import "./Contact.css";
 import { FaGithub, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import emailjs from '@emailjs/browser';
+import { useState } from "react";
 
-const Contact = function(){
+const Contact = function () {
+
+    const validate = (state) => {
+        const errors = {};
+        if (!state.name) {
+            errors.name = "Se requiere un nombre";
+        }
+        if (!state.email) {
+            errors.email = "Campo necesario"
+        }
+        if (!state.message) {
+            errors.message = "Campo necesario"
+        }
+        return errors;
+    }
+
+    const initialState = {
+        name: "",
+        email: "",
+        message: ""
+    }
+
+    const [state, setState] = useState(initialState);
+    const [errors, setErrors] = useState({})
+
+    const handleChange = (e) => {
+        e.preventDefault();
+        setState({
+            ...state,
+            [e.target.name]: e.target.value
+        })
+        setErrors(validate({
+            ...state,
+            [e.target.name]: e.target.value
+        }))
+    }   
+    
+    const sendEmail = (e) => {
+        e.preventDefault();
+        if (!state.name || !state.email || !state.message) {
+            return alert('Complete correctamente el formulario antes de enviarlo')
+        }
+        emailjs.sendForm("service_dujxw3r", "template_d6vqmpi", e.target, "oOd9IHvI3LhSWjYp2")
+        .then(response => console.log(response))
+        .catch(response => console.log(response))  
+        alert("Mensaje enviado con exito!")
+        setState(initialState);
+    }
+
     return(
         <div className="contact-div" id="Contact">
             <h2 className="text-size">CONTACTO</h2>
             <div className="div-row-form-contact">
-                <form>
+                <form onSubmit={sendEmail}>
                     <h3 className="text-style">Contame tu propuesta</h3>
                     <div className="input-group">
-                        <input type="text"/>
+                        <input type="text" name="name" required="required" value={state.name} onChange={handleChange} />
                         <label>nombre</label>
                     </div>
                     <div className="input-group">
-                        <input type="text"/>
+                        <input type="text" name="email" required="required" value={state.email} onChange={handleChange}/>
                         <label>email</label>
                     </div>
                     <div className="input-group">
-                        <textarea type="text"/>
+                        <textarea type="text" name="message" required="required" value={state.message} onChange={handleChange}/>
                         <label>tu propuesta</label>
                     </div>
-                    <button className="button-nuevo">enviar</button>
+                    <button type="submit" className="button-nuevo">enviar</button>
                 </form>
                 <div className="div-contacts-buttons">
                     <a rel="noreferrer" target="_blank" href="mailto:francocamuspp@gmail.com">

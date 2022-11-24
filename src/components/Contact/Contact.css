@@ -113,6 +113,12 @@ form input:focus ~ label {
     color: #707AE6;
     text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
 }
+form input:valid~label {
+    transform: translateY(-50%) scale(0.8);
+    padding: 0 0.2rem;
+    color: white;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+}
 
 form textarea {
     border: 1.5px solid white;
@@ -133,6 +139,12 @@ form textarea:focus~label {
     transform: translateY(-50%) scale(0.8);
     padding: 0 0.2rem;
     color: #707AE6;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+}
+form textarea:valid~label {
+    transform: translateY(-50%) scale(0.8);
+    padding: 0 0.2rem;
+    color: white;
     text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
 }
 
