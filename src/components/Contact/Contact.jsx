@@ -9,11 +9,14 @@ const Contact = function () {
 
     const validate = (state) => {
         const errors = {};
+         const validateEmails = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
         if (!state.name) {
             errors.name = "Se requiere un nombre";
         }
         if (!state.email) {
             errors.email = "Campo necesario"
+        }else if (!validateEmails.test(state.email)) {
+            errors.email = "Mail incorrecto";
         }
         if (!state.message) {
             errors.message = "Campo necesario"
@@ -44,11 +47,11 @@ const Contact = function () {
     
     const sendEmail = (e) => {
         e.preventDefault();
-        if (!state.name || !state.email || !state.message) {
+        if (!state.name || !state.email || !state.message || errors.email) {
             return alert('Complete correctamente el formulario antes de enviarlo')
         }
         emailjs.sendForm("service_dujxw3r", "template_d6vqmpi", e.target, "oOd9IHvI3LhSWjYp2")
-        .then(response => console.log(response))
+        .then(response => response)
         .catch(response => console.log(response))  
         alert("Mensaje enviado con exito!")
         setState(initialState);
