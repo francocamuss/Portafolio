@@ -13,7 +13,7 @@ const Nav = function(){
             <div className="div-navLinks">
                 <Link to="Home" spy={true} smooth={true} offset={-100} duration={500}><h4 className="h4-about">INICIO</h4></Link>
                 <Link to="AboutMe" spy={true} smooth={true} offset={0} duration={500}><h4 className="h4-about">SOBRE MI</h4></Link>
-                <Link to="Resume" spy={true} smooth={true} offset={0} duration={500}><h4 className="h4-about">HABILIDADES</h4></Link>
+                <Link to="Resume" spy={true} smooth={true} offset={20} duration={500}><h4 className="h4-about">HABILIDADES</h4></Link>
                 <Link to="Proyects" spy={true} smooth={true} offset={0} duration={500}><h4 className="h4-about">PROYECTOS</h4></Link>
                 <Link to="Contact" spy={true} smooth={true} offset={0} duration={500}><h4 className="h4-about">CONTACTO</h4></Link>
             </div>
