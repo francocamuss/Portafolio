@@ -33,6 +33,7 @@
     height: 25%;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 15px;
+    transition: background-color 0.5s, transform 1s;
 }
 .text-contact:hover{
     color: #707AE6;
@@ -40,6 +41,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     transition: all .1s ease;
     box-shadow: 0 0 0 0 #fff, 0 0 0 3px #707AE6;
+    transform: scale(1.05);
 }
 
 .text-style{
@@ -183,6 +185,7 @@ form textarea:valid~label {
     font-family: "Poppins";
     margin-bottom: 50px;
     cursor: pointer;
+    transition: 0.7s;
 }
 .button-nuevo:hover{
     color: #707AE6;
@@ -190,4 +193,5 @@ form textarea:valid~label {
     background: rgba(0, 0, 0, 0.8);
     transition: all .1s ease;
     box-shadow: 0 0 0 0 #fff, 0 0 0 3px #707AE6;
+    transform: scale(1.1)
 }
