@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
 .resume-div{
     background: rgb(32, 24, 43);
         background: linear-gradient(90deg, rgba(32, 24, 43, 1) 22%, rgba(79, 53, 157, 1) 63%, rgba(112, 122, 230, 1) 89%);
@@ -117,6 +117,7 @@
     border: 1px solid black;
 }
 
+
 .div-habilidades{
     display: flex;
     flex-direction: column;
@@ -128,7 +129,6 @@
     margin-top: 15px;
     
 }
-
 .habilidad{
     display: flex;
     flex-direction: row;
@@ -140,4 +140,75 @@
 .habilidad-row{
     display: flex;
     justify-content: space-around;
+} */
+.resume-div{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 600px;
+}
+.cuadrado-skills{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #171717;
+    border: 0.5px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.resume-subdiv-2{
+    color: white;
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 450px;
+    grid-gap: 30px;
+    
+}
+
+.card-habilitie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #1D1D1D;
+    border: 0.5px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+    padding: 10px 0px;
+    z-index: 2;
+}
+
+.card-habilitie-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, #1877F2 0%, #044396 100%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    padding: 10px 0px;
+    border: 0.5px solid rgba(0, 0, 0, 0.6);
+}
+
+.habilidad {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    padding: 5px 0px;
+    
+}
+@media screen and (max-width: 768px) {
+.resume-subdiv-2{
+            grid-template-columns: 1fr;
+                grid-template-rows: repeat(3, 1fr);
+                grid-gap: 30px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+    }
+
 }

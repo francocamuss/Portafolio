@@ -31,7 +31,12 @@
     animation-name: modal;
     animation-duration: 0.7s;
 }
- 
+.modal-container-img{
+    position: relative;
+    animation-name: modal;
+    animation-duration: 0.7s;
+}
+
 .modal-close{
     position: absolute;
     top: 5px;

@@ -4,18 +4,15 @@ import AboutMe from "./components/AboutMe/AboutMe.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Proyects from "./components/Proyects/Proyects.jsx";
-import Home from "./components/Home/Home.jsx";
+// import Home from "./components/Home/Home.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <main>
-        <Home/>
-        <AboutMe/>
-        <Skills/>
-        <Proyects/>
-      </main>
+      <Nav/>   
+      <AboutMe />
+      <Skills/>
+      <Proyects/>
       <Contact/>
     </div>
   );

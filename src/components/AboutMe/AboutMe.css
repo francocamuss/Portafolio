@@ -1,139 +1,72 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
 .aboutMe-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(32, 24, 43);
-        background: linear-gradient(90deg, rgba(32, 24, 43, 1) 24%, rgba(53, 38, 88, 1) 71%, rgba(112, 122, 230, 1) 100%);
-    height: 700px;
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
     font-family: "Poppins";
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
 }
-
-.aboutMe-card{
-    display: flex;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    width: 50%;
-    margin-left: 25%;
-    background: linear-gradient(to left, white 50%, #FB2576 50%);
-    height: 80%;
-}   
-
 .photo{
-    width: 350px;
-    height: 350px;
     border-radius: 999px;
     box-shadow: 0px 0px 5px black;
-    margin-top: 15px;
-}
-
-.left-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;  
-}
-
-.right-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 50%;
 }
-
-.botones{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.button1{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: "Poppins";
-    display: inline-block;
-    outline: 0;
-    border: 2px solid white;
-    cursor: pointer; 
-    border-radius: 15px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    transition: background 0.2s ease,
-    color 0.2s ease,
-    box-shadow 0.2s ease;
-    padding: 7px 18px;   
-}
-.button1:hover {
-    border-color: black;
-    background-color: #FB2576;
-    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
-}
-.a-download{
-   width: 25%;
-   margin-left: 37.5%;
-}
-
-hr{
-    width: 15%;
-    height: 2px;
-    border-radius: 5px;
-    margin-top: -10px;
-    margin-bottom: -10px;
-}
-
-.button2 {
-    margin-left: 5px;
-    margin-right: 5px;
-    display: inline-block;
-    border: 2px solid #3F0071;
-    outline: 0;
-    cursor: pointer;
-    border-radius: 15px;
-    background-color: white;
-    color: #000000;
-    font-weight: 400;
-    transition: background 0.2s ease,
-    color 0.2s ease,
-    box-shadow 0.2s ease;
-    padding: 8px;
-    font-weight: bold;
-}
-
-.color-about{
-    color: white;
-    text-shadow: 0px 0px 3px black;
-}
-
-.tecnologias{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: white;
-    height: 50px;
-    width: 100%;
-}
-
-.button2:hover {
-    background: #3F0071;
-    color: white;
-}
-
 .aboutMe-subDiv-1{
-    height: 50%;
+    margin: 10px 0px;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    text-align: left;
+}
+.aboutMe-subDiv-2 div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutMe-subDiv-1 h3{
+    color: #1877F2;
+}
+.aboutMe-subDiv-1 button {
     color: white;
-    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+    background: linear-gradient(180deg, #1877F2 0%, #044396 100%);
+    border-radius: 2px;
+    padding: 15px 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }
-.aboutMe-subDiv-2 {
-    width: 50%;
+.aboutMe-subDiv-1 button:hover {
+    cursor: pointer;
+    color: #1877F2;
+    border-color:#1877F2;
+    background: rgba(0,0,0,.5);
+    border-radius: 2px;
+    padding: 15px 25px;
+    font-weight: bold;
+    margin-top: 10px;
 }
-.aboutMe-subDiv-1 p {
-    width: 70%;
-    margin-left: 15%;
-    font-size: 18px;
+
+@media screen and (max-width: 768px) {
+    .aboutMe-div {
+        margin-top: 0px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+  
+        }
+       
+}
+
+@media screen and (max-width: 550px) {
+    .aboutMe-div {
+        margin-top: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 1fr;
+
+    }
+
 }

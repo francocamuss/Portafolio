@@ -60,24 +60,23 @@ const Contact = function () {
     return(
         <div className="contact-div" id="Contact">
             <h2 className="text-size">CONTACTO</h2>
-            <div className="div-row-form-contact">
-                <form onSubmit={sendEmail}>
+            <form onSubmit={sendEmail}>
                     <h3 className="text-style">Contame tu propuesta</h3>
-                    <div className="input-group">
+                    {/* <div className="input-group"> */}
                         <input type="text" name="name" required="required" value={state.name} onChange={handleChange} />
-                        <label>nombre</label>
-                    </div>
-                    <div className="input-group">
+                        {/* <label>nombre</label> */}
+                    {/* </div> */}
+                    {/* <div className="input-group"> */}
                         <input type="text" name="email" required="required" value={state.email} onChange={handleChange}/>
-                        <label>email</label>
-                    </div>
-                    <div className="input-group">
+                        {/* <label>email</label> */}
+                    {/* </div> */}
+                    {/* <div className="input-group"> */}
                         <textarea type="text" name="message" required="required" value={state.message} onChange={handleChange}/>
-                        <label>tu propuesta</label>
-                    </div>
+                        {/* <label>tu propuesta</label> */}
+                    {/* </div> */}
                     <button type="submit" className="button-nuevo">enviar</button>
-                </form>
-                <div className="div-contacts-buttons">
+            </form>
+            <div className="div-contacts-buttons">
                     <a rel="noreferrer" target="_blank" href="mailto:francocamuspp@gmail.com">
                         <div className="text-contact button-contact-1">
                             <h3>Enviar un email</h3>
@@ -102,7 +101,6 @@ const Contact = function () {
                             <FaWhatsapp size="30px"/>
                         </div>
                     </a>
-                </div>
             </div>
             {/* <form>
                 <h3 className="text-style">Contame tu propuesta</h3>
