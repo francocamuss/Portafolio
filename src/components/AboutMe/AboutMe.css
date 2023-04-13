@@ -7,6 +7,7 @@
     width: 90%;
     margin-left: 5%;
     height: auto;
+    padding-top: 50px;
 }
 .photo{
     border-radius: 999px;
@@ -31,24 +32,26 @@
 .aboutMe-subDiv-1 h3{
     color: #1877F2;
 }
-.aboutMe-subDiv-1 button {
+.aboutMe-subDiv-1 a {
+    text-align: center;
     color: white;
     background: linear-gradient(180deg, #1877F2 0%, #044396 100%);
-    border-radius: 2px;
-    padding: 15px 25px;
+    width: 25%;
+    padding: 8px;
     font-weight: bold;
-    margin-top: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+    border: 1px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
 }
-.aboutMe-subDiv-1 button:hover {
+.aboutMe-subDiv-1 a:hover {
+    transform: scale(1.1);
     cursor: pointer;
     color: #1877F2;
     border-color:#1877F2;
     background: rgba(0,0,0,.5);
-    border-radius: 2px;
-    padding: 15px 25px;
     font-weight: bold;
-    margin-top: 10px;
+
 }
 
 @media screen and (max-width: 768px) {

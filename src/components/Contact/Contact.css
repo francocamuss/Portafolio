@@ -201,6 +201,7 @@ form textarea:valid~label {
     margin: 100px 10%;
     background: #1D1D1D;
     border: 0.5px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
     color: white;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
     display: grid;
@@ -209,12 +210,15 @@ form textarea:valid~label {
     grid-template-rows: 50px 350px;
     grid-template-areas: "title form"
                          "div-btn form";
+    font-family: "Poppins";
+                         
 }
 
 .contact-div h2 {
     grid-area: title;
     justify-self: start;
     align-self: end;
+    margin-bottom: -20px;
     margin-left: 50px;
 }
 .contact-div form {
@@ -225,9 +229,117 @@ form textarea:valid~label {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 70%;
+    font-family: "Poppins";
+}
+form input {
+    border: 1.5px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    height: 30px;
+    padding: 3px 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+form textarea {
+    border: 1.5px solid white;
+    border-radius:10px;
+    background: none;
+    color: white;
+    height: 70px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+form button {
+    border: 1px solid white;
+        border-radius: 50px;
+        color: white;
+        background: linear-gradient(180deg, #1877F2 0%, #044396 100%);
+        transition: 0.6s;
+        height: 35px;
+        padding: 3px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "Poppins";
+        margin-top: 10px;
+}
+form button:hover{
+    transform: scale(1.01);
+        cursor: pointer;
+        color: #1877F2;
+        border-color: #1877F2;
+        background: rgba(0, 0, 0, .5);
+        font-weight: bold;
 }
 .contact-div div {
     grid-area: div-btn;
-    justify-self: center;
-        align-self: center;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "boton1 boton2"
+                        "boton3 boton4";                     
+                        padding: 30px 50px 80px 50px;
+}
+
+.text-contact {
+        font-family: "Poppins";
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(180deg, #1877F2 0%, #044396 100%);
+    transition: 0.6s;
+}
+.text-contact:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    color: #1877F2;
+    border-color: #1877F2;
+    background: rgba(0, 0, 0, .5);
+    font-weight: bold;
+}
+.button-contact-1 {
+    grid-area: boton1;
+        justify-self: start;
+        align-self: end;
+        width: 100%;
+        height: 100%;
+}
+
+.button-contact-2 {
+    grid-area: boton2;
+        justify-self: start;
+        align-self: end;
+        width: 100%;
+            height: 100%;
+}
+
+.button-contact-3 {
+    grid-area: boton3;
+        justify-self: start;
+        align-self: end;
+        width: 100%;
+            height: 100%;
+}
+
+.button-contact-4 {
+    grid-area: boton4;
+    justify-self: start;
+    align-self: end;
+    width: 100%;
+        height: 100%;   
+}
+.div-contacts-buttons div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+a{
+    text-decoration: none;
 }

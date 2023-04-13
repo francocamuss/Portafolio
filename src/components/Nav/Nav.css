@@ -47,9 +47,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px; 
-    background: rgba(33, 33, 33, 0.8);
+    background: rgba(33, 33, 33, 0.95);
     border-bottom: 1px solid #000000;
     color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 6;
+    
 }
 
 .div-navLinks {

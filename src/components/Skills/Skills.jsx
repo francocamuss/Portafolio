@@ -65,7 +65,7 @@ const Resume = function(){
                     <div className="habilidad">
                         <BiCheck color="#FB2576" size="30px"/>
                         {/* <p>Empatia y sociabilidad</p> */}
-                        <p>React Native</p>
+                        <p>Next JS</p>
                     </div>
                     <div className="habilidad">
                         <BiCheck color="#FB2576" size="30px"/>

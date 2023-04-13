@@ -54,18 +54,16 @@ const Proyects = function () {
                     {/* <a rel="noreferrer" target="_blank" href="https://pi-countries-francocamuss.vercel.app/">
                         <button className="btn-proyect">Ver proyecto</button>
                     </a>                     */}
-                    <p>
-                        Este proyecto fue realizado de manera individual. Se desarrollo desde cero, tanto en el front end, back end y base de datos...
-                    </p>
+                    
                     <button className="btn-vermas" onClick={()=>setOpenModal1(true)}>
                          Ver más
                     </button>
                 </div>
             </div>
             <Modal openModal={openModal1} setOpenModal={setOpenModal1}>
-                <h2>
+                <h1>
                     Henry Countries
-                </h2>
+                </h1>
                 <p>
                     Este proyecto fue realizado de manera individual. Se desarrolló desde cero, tanto en el front end, back end y base de datos. Se utilizaron las tecnologias de React, Redux, HTML, CSS, Node JS, Express JS, Sequelize y Postgres SQL. Consiste en una App donde puedes encontar información de distintos paises, filtrarlos y ordernalos en base a su información. También cuenta con un formulario donde puedes asignarles actividades a los paises.
                 </p>
@@ -80,9 +78,7 @@ const Proyects = function () {
                     {/* <a rel="noreferrer" target="_blank" href="https://henrybienesraices.vercel.app/">
                         <button className="btn-proyect">Ver proyecto</button>
                     </a> */}   
-                    <p>
-                        Este proyecto fue realizado de manera grupal. Se desarrollo desde cero, tanto en el front end, back end y base de datos...
-                    </p>
+                    
                     <button className="btn-vermas" onClick={()=>setOpenModal2(true)}>
                         Ver más
                     </button>               
@@ -92,9 +88,9 @@ const Proyects = function () {
                 <Carrousel images={imagenesPG}/>
             </ModalImg>
             <Modal openModal={openModal2} setOpenModal={setOpenModal2}>
-                <h2>
+                <h1>
                     Henry Bienes Raices
-                </h2>
+                </h1>
                 <p>
                     Este proyecto fue realizado de manera grupal. Se desarrollo desde cero, tanto en el front end, back end y base de datos. Se utilizaron las tecnologias de React, Redux, HTML, CSS, Node JS, Express JS, Sequelize y Postgres SQL. El proyecto está basado en una plataforma para la realización de compras, alquileres y propuestas de venta en el ámbito de bienes raíces. En la plataforma encontraras opciones como filtrado de propiedades, una sección de favorito, una posibilidad de loguearte, enviar datos de tu casa para que la inmobiliaria venda tu casa.
                 </p>
@@ -106,9 +102,7 @@ const Proyects = function () {
                     {/* <a rel="noreferrer" target="_blank" href="https://portafolio-one-orpin.vercel.app/">
                         <button className="btn-proyect">Ver proyecto</button>
                     </a> */}
-                    <p>
-                       Este proyecto esta creado con el fin de potenciar mi marca personal y que las empresas puedan ver...
-                    </p>
+                    
                     <button className="btn-vermas" onClick={()=>setOpenModal3(true)}>
                         Ver más
                     </button>
@@ -118,9 +112,9 @@ const Proyects = function () {
                 <Carrousel images={imagenesNC}/>
             </ModalImg>
             <Modal openModal={openModal3} setOpenModal={setOpenModal3} >
-                <h2>
+                <h1>
                     Mi portafolio
-                </h2>
+                </h1>
                 <p>Este proyecto esta creado con el fin de potenciar mi marca personal y que las empresas puedan ver mi trabajo, tomando el rol de front End Developer. Se busca mostrar un poco sobre mi y lo que disfruto hacer, la programación. Se utilizaron las tecnologias de React, Redux, HTML y CSS puro. Esta app se encuentra en constante desarrollo para mejorar la experiencia de usuario.
                 </p>
             </Modal>
@@ -131,9 +125,7 @@ const Proyects = function () {
                     {/* <a rel="noreferrer" target="_blank" href="https://portafolio-one-orpin.vercel.app/">
                         <button className="btn-proyect">Ver proyecto</button>
                     </a> */}
-                    <p>
-                       Este proyecto esta creado con el fin de potenciar mi marca personal y que las empresas puedan ver...
-                    </p>
+                   
                     <button className="btn-vermas" onClick={()=>setOpenModal3(true)}>
                         Ver más
                     </button>                  
@@ -143,9 +135,9 @@ const Proyects = function () {
                 <Carrousel images={imagenesFede}/>
             </ModalImg>
             <Modal openModal={openModal3} setOpenModal={setOpenModal3} >
-                <h2>
+                <h1>
                     Mi portafolio
-                </h2>
+                </h1>
                 <p>Este proyecto esta creado con el fin de potenciar mi marca personal y que las empresas puedan ver mi trabajo, tomando el rol de front End Developer. Se busca mostrar un poco sobre mi y lo que disfruto hacer, la programación. Se utilizaron las tecnologias de React, Redux, HTML y CSS puro. Esta app se encuentra en constante desarrollo para mejorar la experiencia de usuario.
                 </p>
             </Modal>

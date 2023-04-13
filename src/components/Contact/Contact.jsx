@@ -63,40 +63,40 @@ const Contact = function () {
             <form onSubmit={sendEmail}>
                     <h3 className="text-style">Contame tu propuesta</h3>
                     {/* <div className="input-group"> */}
-                        <input type="text" name="name" required="required" value={state.name} onChange={handleChange} />
+                        <input type="text" name="name" required="required" value={state.name} onChange={handleChange} placeholder="nombre" />
                         {/* <label>nombre</label> */}
                     {/* </div> */}
                     {/* <div className="input-group"> */}
-                        <input type="text" name="email" required="required" value={state.email} onChange={handleChange}/>
+                        <input type="text" name="email" required="required" value={state.email} onChange={handleChange} placeholder="email"/>
                         {/* <label>email</label> */}
                     {/* </div> */}
                     {/* <div className="input-group"> */}
-                        <textarea type="text" name="message" required="required" value={state.message} onChange={handleChange}/>
+                        <textarea type="text" name="message" required="required" value={state.message} onChange={handleChange} placeholder="propuesta"/>
                         {/* <label>tu propuesta</label> */}
                     {/* </div> */}
-                    <button type="submit" className="button-nuevo">enviar</button>
+                    <button type="submit" className="button-nuevo">ENVIAR</button>
             </form>
             <div className="div-contacts-buttons">
-                    <a rel="noreferrer" target="_blank" href="mailto:francocamuspp@gmail.com">
-                        <div className="text-contact button-contact-1">
+                    <a rel="noreferrer" target="_blank" href="mailto:francocamuspp@gmail.com" className="button-contact-1">
+                        <div className="text-contact ">
                             <h3>Enviar un email</h3>
                             <SiGmail size="30px"/>
                         </div>
                     </a>
-                    <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/franco-santiago-camus-1121261a8/">
-                        <div className="text-contact button-contact-2">
+                    <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/franco-santiago-camus-1121261a8/" className="button-contact-2">
+                        <div className="text-contact">
                             <h3>Visitar Linkedin</h3>
                             <FaLinkedinIn size="30px" />
                         </div>
                     </a>
-                    <a rel="noreferrer" className="div-GITHUB" target="_blank" href="https://github.com/francocamuss">
-                        <div className="text-contact button-contact-3">
+                    <a rel="noreferrer" target="_blank" href="https://github.com/francocamuss" className="button-contact-3">
+                        <div className="text-contact">
                             <h3>Visitar GitHub</h3>
                             <FaGithub size="30px"/>
                         </div>
                     </a>
-                    <a rel="noreferrer" target="_blank" href="https://wa.me/5493815243787?Hola,%20quiero%20saber%20más%20sobre%20tus%20servicios">
-                        <div className="text-contact button-contact-4">
+                    <a rel="noreferrer" target="_blank" href="https://wa.me/5493815243787?Hola,%20quiero%20saber%20más%20sobre%20tus%20servicios" className="button-contact-4">
+                        <div className="text-contact">
                             <h3>Enviar un whatsapp</h3>
                             <FaWhatsapp size="30px"/>
                         </div>
