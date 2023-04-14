@@ -71,6 +71,14 @@
     align-items: center;
     justify-content: flex-start;
 }
+.h4-about {
+    color: white;
+    cursor: pointer;
+}
+
+.h4-about:hover {
+    color: #1877F2;
+}
 
 @media screen and (max-width: 768px) {
 .nav-div {
